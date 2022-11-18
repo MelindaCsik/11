@@ -5,17 +5,28 @@
  */
 package pkg1118;
 
+import java.util.Scanner;
+
 /**
  *
  * @author user3
  */
 public class Main {
+    
+    
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        // Kérjük be a felhasználótól a személyi igazolvány számát!
+        
+        Scanner bill = new Scanner(System.in);
+        System.out.println("Adja meg a személyi igazolvány számát: ");
+        
+        System.out.println("");
+        
     }
     
 }
