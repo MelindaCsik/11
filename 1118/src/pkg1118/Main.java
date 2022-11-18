@@ -13,7 +13,11 @@ import java.util.Scanner;
  */
 public class Main {
     
-    
+    public static double szemely(double szemelySzam) {
+        
+        
+        return ;
+    }
 
     /**
      * @param args the command line arguments
