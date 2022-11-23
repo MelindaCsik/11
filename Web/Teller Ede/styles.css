@@ -1,6 +1,7 @@
 body {
     background-size: cover;
     font-weight: 500;
+    background-image: url(physics_back.jpg);
   }
   
   p {
