@@ -21,9 +21,9 @@ public class MetodusGyak {
     }
     
      public static int kozepso(int szam1, int szam2, int szam3) {
-        int  kozepso = 0;
         int min = Math.min(Math.min(szam1, szam2), szam3);
         int max = Math.max(Math.max(szam1, szam2), szam3);
+        int kozepso = szam1 + szam2 + szam3 - max - min; 
         
         return kozepso;
     }
