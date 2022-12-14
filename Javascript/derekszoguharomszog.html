@@ -8,14 +8,14 @@
 
     <script>
         function check() {
-            let a = document.getElementById('a')
-            let b = document.getElementById('b')
-            let c = document.getElementById('c')
+            let a = document.getElementById('a').value
+            let b = document.getElementById('b').value
+            let c = document.getElementById('c').value
 
             if (a*a+b*b==c*c) {
-                document.write('br' + "A háromszög derékszögű.")
+                document.write('<br>' + "A háromszög derékszögű.")
             } else {
-                document.write('br' + "A háromszög nem derékszögű.")
+                document.write('<br>' + "A háromszög nem derékszögű.")
             }
         }
 
