@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <script>
+        function check() {
+            let a = document.getElementById('a')
+            let b = document.getElementById('b')
+            let c = document.getElementById('c')
+
+            if (a*a+b*b==c*c) {
+                document.write('br' + "A háromszög derékszögű.")
+            } else {
+                document.write('br' + "A háromszög nem derékszögű.")
+            }
+        }
+
+    </script>
+</head>
+<body>
+    
+    <form>
+        <label for="a">Add meg a háromszög a oldalát: </label> <br>
+        <input type="text" id="a" name="a" value=" "> <br>
+        <label for="b">Add meg a háromszög b oldalát</label> <br>
+        <input type="text" id="b" name="b" value=" "> <br>
+        <label for="c">Add meg a háromszög c oldlát: </label> <br>
+        <input type="text" id="c" name="c" value=" "> <br><br>
+    </form>
+
+    <button onclick="check()">Kiszámítás</button>
+
+</body>
+</html>
