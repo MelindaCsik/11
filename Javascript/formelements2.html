@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <script>
+        function check() {
+            var autok = document.getElementById('cars')
+            var auto = auto.options[autok.selectedIndex].value
+            var autoV = autok.options[autok.selectedIndex].text
+            document.getElementById("ide_irj").innerHTML = "Választott autó: " + auto
+            return false
+        }
+    </script>
+</head>
+<body>
+
+    <form action="/action_page.php">
+        <label for="cars">Válasz egy autót:</label>
+        <select id="cars" name="cars">
+          <option value="1">Volvo</option>
+          <option value="2">Subaru</option>
+          <option value="3">Fiat</option>
+          <option value="4">Audi</option>
+        </select>
+
+        <button onclick="check()">Küldés</button>
+    
+</body>
+</html>
